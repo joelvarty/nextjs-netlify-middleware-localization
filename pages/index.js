@@ -4,7 +4,12 @@ export function getServerSideProps(props)
         let country = query.country;
 
         let messages = {
-      
+          'AR': "¿Qué hacés, wachx?",
+          'MX': "¿Qué onda, wey?",
+          'VE': "¿Qué pasó, mi pana?",
+          'CO': "¿Quihubo parce?",
+          'ES': "¿Qué pasa?",
+          'CR': "Pura vida.",
         };
         // default message if you're not from one of the countries covered in this tutorial
         let msg = "This proof of concept only works with a few select countries like Argentina, Mexico, Venezuela, Colombia, and Costa Rica. I'm working on improving this.";
